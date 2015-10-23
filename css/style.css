@@ -1,6 +1,7 @@
 ﻿@charset "utf-8";
 
 /* 基本レイアウト ここから↓ */
+
 @import url(common.css);
 body {
   background-color: #f3f2e9;
@@ -81,24 +82,61 @@ nav ul li a:hover {
 .bnr_inner a p img:hover {
   opacity: 0.8;
 }
-/* 基本レイアウト ここまで↑ */
 
+/* 基本レイアウト ここまで↑ */
 /* トップページ ここから↓ */
 
-/* トップページ ここまで↑ */
+#news ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#news ul li {
+  padding: 20px 0 20px 175px;
+  border-bottom: 1px dotted #6c5f45;
+  color: #342300;
+  text-indent: -175px;
+}
+#news ul li time {
+  display: inline-block;
+  width: 175px;
+  font-weight: bold;
+  color: #6c5f45;
+  text-indent: 0;
+}
 
+/* トップページ ここまで↑ */
 /* 「結婚式場のコンセプト」ページ ここから↓ */
 
-/* 「結婚式場のコンセプト」ページ ここまで↑ */
+.concept_box {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.image_right {
+  float: right;
+  margin-left: 25px;
+}
+.image_left {
+  float: left;
+  margin-right: 25px;
+}
+.concept_box:last-child,
+.concept_box p:last-child {
+  margin-bottom: 0;
+}
 
+/* 「結婚式場のコンセプト」ページ ここまで↑ */
 /* 「プランのご案内」ページ ここから↓ */
 
-/* 「プランのご案内」ページ ここまで↑ */
 
+
+/* 「プランのご案内」ページ ここまで↑ */
 /* 「ブライダルフェア」ページ ここから↓ */
 
-/* 「ブライダルフェア」ページ ここまで↑ */
 
+
+/* 「ブライダルフェア」ページ ここまで↑ */
 /* 「お問い合わせ」ページ ここから↓ */
+
+
 
 /* 「お問い合わせ」ページ ここまで↑ */
