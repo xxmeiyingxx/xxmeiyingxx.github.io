@@ -1,0 +1,54 @@
+@charset: "utf-8";
+
+body {
+  color: #475950;
+  background-image: url(../imgs/wall.jpg);
+  font-size: 90%;
+  line-height: 1.5;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "MS Pゴシック", "MS PGothic", "sans-serif";
+  font-weight: bold;
+}
+
+header, nav, #items, #shop, #contacts {
+  margin: 0 auto;
+  width: 900px;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  overflow: hidden;
+  position: fixed;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  width: 225px;
+}
+
+nav ul li a {
+  background-image: url(../imgs/wall.jpg);
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  border: outset;
+  text-decoration:none;
+  color: #475950;
+  font-size: 120%;
+}
+
+nav ul li a:hover {
+  background-color:#bc763c;
+}
+
+article {
+  background-color: #eae5e3;
+}
+
+#items, #shop, #contacts {
+  padding-top: 60px;
